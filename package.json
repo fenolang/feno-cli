@@ -1,6 +1,6 @@
 {
   "name": "feno-cli",
-  "version": "0.5.0",
+  "version": "1.0.0",
   "description": "The Feno Official CLI",
   "main": "index.js",
   "scripts": {

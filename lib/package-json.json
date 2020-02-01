@@ -5,8 +5,8 @@
     "main": "index.js",
     "scripts": {
         "dev": "cross-env FENO_ENV=development nodemon --watch src",
-        "build": "cross-env FENO_ENV=development feno-cli build",
-        "generate": "feno-cli generate"
+        "build": "cross-env FENO_ENV=development feno build",
+        "generate": "feno generate"
     },
     "author": "$author",
     "devDependencies": {
