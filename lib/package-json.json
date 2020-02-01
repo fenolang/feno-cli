@@ -1,0 +1,17 @@
+{
+    "name": "$name",
+    "version": "1.0.0",
+    "description": "$description",
+    "main": "index.js",
+    "scripts": {
+        "dev": "cross-env FENO_ENV=development nodemon --watch src",
+        "build": "cross-env FENO_ENV=development feno-cli build",
+        "generate": "feno-cli generate"
+    },
+    "author": "$author",
+    "devDependencies": {
+    },
+    "dependencies": {
+        "feno": "^1.0.0"
+    }
+}

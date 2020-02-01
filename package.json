@@ -1,24 +1,28 @@
 {
-  "name": "nue-cli",
-  "version": "1.0.0",
-  "description": "The Nue Official CLI",
+  "name": "feno-cli",
+  "version": "0.5.0",
+  "description": "The Feno Official CLI",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "Nue",
+    "Feno",
     "CLI",
-    "NueJS",
-    "NueScript"
+    "FenoJS",
+    "Programming Language",
+    "Web development",
+    "Feno installer"
   ],
   "author": "YahirGNz <yahirgnnz@gmail.com>",
   "license": "ISC",
   "bin": {
-    "create-nue-project": "./index.js"
+    "feno": "./index.js"
   },
   "dependencies": {
     "@octokit/rest": "^16.33.1",
+    "asciify-image": "^0.1.5",
+    "center-align": "^1.0.1",
     "chalk": "^2.4.2",
     "clear": "^0.1.0",
     "clui": "^0.3.6",
