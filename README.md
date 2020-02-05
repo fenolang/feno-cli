@@ -4,7 +4,7 @@
 
 ## Documentation
 
-Docs are available at http://fenolang.heroku.com/docs/installation
+Docs are available at https://fenolang.herokuapp.com/docs/installation
 
 ## License
 

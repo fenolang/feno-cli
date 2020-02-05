@@ -4,7 +4,7 @@ Feno is a programming language transpiled to JavaScript to improve your producti
 
 ## Learning Feno
 
-You can learn everything about Feno with his own [documentation](https://fenolang.heroku.com/docs) and start working in a project.
+You can learn everything about Feno with his own [documentation](https://fenolang.herokuapp.com/docs) and start working in a project.
 
 ## License
 
