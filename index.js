@@ -1,18 +1,12 @@
-const chalk = require('chalk');
+#!/usr/bin/env node
+
 const clear = require('clear');
 const path = require('path');
-const center = require('center-align');
 const cli_version = require('./lib/v');
 
 const files = require('./lib/files');
 const inquirer = require('./lib/inquirer');
 const argv = require('minimist')(process.argv.slice(2));
-
-var options = {
-    fit: 'box',
-    width: 15,
-    height: 15
-}
 
 const logo = `
 MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
